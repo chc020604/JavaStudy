@@ -12,10 +12,10 @@ public class GenericTestMain2 {
 					.student_address("부산")
 					.build());
 		
-		GenericTest2<String, GenericTest<Interger>> test2 
-			= GenericTest2<String, genericTest<Integer>
-					
-		
+//		GenericTest2<String, GenericTest<Interger>> test2 
+//			= GenericTest2<String, genericTest<Integer>
+//					
+//		
 		System.out.println(test);
 	}
 

@@ -5,7 +5,7 @@ import j14_추상.Animal;
 import j18_lombok.Student;
 
 public class WildCardTestMain {
-	// <?>라는 건 나는 다양한 자료형을 사용하겠다는 뜻(String등을 고정하는게 아니라)
+	// <?>라는 건 나는 다양한 자료형을 사용하겠다는 뜻(String등 자료형을 고정하는게 아니라)
 	public WildCardTest<?> test(int index){ 
 		if(index == 0) {
 			return new WildCardTest<Integer>(100); // <>안을 비워줘도 정상적으로 실행이 된다.

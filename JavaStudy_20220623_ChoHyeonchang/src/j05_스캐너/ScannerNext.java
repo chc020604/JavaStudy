@@ -1,3 +1,5 @@
+package j05_스캐너;
+
 import java.util.Scanner;
 
 public class ScannerNext {
